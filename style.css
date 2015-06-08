@@ -1,0 +1,8 @@
+body               {background-color:#FFF; color: #484c5d; font-family: "Verdana"; font-size: 105%}
+a                  {color:#992200}
+#page-title        {font-weight: normal; color: #273132}
+#heading           {font-family: "depot-new-condensed-1", "depot-new-condensed-2", sans-serif;
+                    font-weight: 600; font-size: 130%; color: #273132;}
+#container         {margin:0px auto; width: 700;}
+#titles            {text-align: center; color:black, font-size: 150%; font-weight: bold;}
+

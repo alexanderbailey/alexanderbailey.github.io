@@ -1,0 +1,39 @@
+Reading from folder: ideals/n-8/
+File name = n-8-k-1-i-1.bit8, file size = 7, number of semigroups = 1
+File name = n-8-k-2-i-1.bit16, file size = 84, number of semigroups = 6
+File name = n-8-k-2-i-2.bit16, file size = 826, number of semigroups = 59
+File name = n-8-k-3-i-3.bit16, file size = 210, number of semigroups = 15
+File name = n-8-k-3-i-6.bit16, file size = 2772, number of semigroups = 198
+File name = n-8-k-4-i-1.bit24, file size = 21, number of semigroups = 1
+File name = n-8-k-4-i-12.bit24, file size = 924, number of semigroups = 44
+File name = n-8-k-4-i-24.bit24, file size = 2268, number of semigroups = 108
+File name = n-8-k-4-i-3.bit24, file size = 21, number of semigroups = 1
+File name = n-8-k-4-i-4.bit24, file size = 63, number of semigroups = 3
+File name = n-8-k-4-i-6.bit24, file size = 126, number of semigroups = 6
+File name = n-8-k-4-i-8.bit24, file size = 21, number of semigroups = 1
+File name = n-8-k-5-i-10.bit24, file size = 21, number of semigroups = 1
+File name = n-8-k-5-i-120.bit24, file size = 168, number of semigroups = 8
+File name = n-8-k-5-i-20.bit24, file size = 231, number of semigroups = 11
+File name = n-8-k-5-i-30.bit24, file size = 63, number of semigroups = 3
+File name = n-8-k-5-i-5.bit24, file size = 21, number of semigroups = 1
+File name = n-8-k-5-i-60.bit24, file size = 441, number of semigroups = 21
+File name = n-8-k-6-i-120.bit24, file size = 42, number of semigroups = 2
+File name = n-8-k-6-i-15.bit24, file size = 42, number of semigroups = 2
+File name = n-8-k-6-i-180.bit24, file size = 21, number of semigroups = 1
+File name = n-8-k-6-i-30.bit24, file size = 42, number of semigroups = 2
+File name = n-8-k-6-i-6.bit24, file size = 21, number of semigroups = 1
+File name = n-8-k-6-i-60.bit24, file size = 42, number of semigroups = 2
+File name = n-8-k-7-i-42.bit24, file size = 21, number of semigroups = 1
+File name = n-8-k-7-i-7.bit24, file size = 21, number of semigroups = 1
+File name = n-8-k-8-i-1.bit32, file size = 28, number of semigroups = 1
+Calculating polynomial for n=8
+a^I_8(FS_r) = (1/1!)*( 1*1 )*r
++ (1/2!)*( 1*6 + 2*59 )*r*(r-1)
++ (1/3!)*( 3*15 + 6*198 )*r*(r-1)*(r-2)
++ (1/4!)*( 1*1 + 3*1 + 4*3 + 6*6 + 8*1 + 12*44 + 24*108 )*r*(r-1)*(r-2)*(r-3)
++ (1/5!)*( 5*1 + 10*1 + 20*11 + 30*3 + 60*21 + 120*8 )*r*(r-1)*(r-2)*(r-3)*(r-4)
++ (1/6!)*( 6*1 + 15*2 + 30*2 + 60*2 + 120*2 + 180*1 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)
++ (1/7!)*( 7*1 + 42*1 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)*(r-6)
++ (1/8!)*( 1*1 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)*(r-6)*(r-7)
+Simplifying polynomial
+a^I_8(FS_r)=(1/40320)*r^8+(13/1440)*r^7+(1979/2880)*r^6+(173/18)*r^5-(66113/5760)*r^4-(43913/1440)*r^3+(227777/3360)*r^2-(281/8)*r

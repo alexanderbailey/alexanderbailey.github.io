@@ -1,0 +1,65 @@
+Reading from folder: ideals/n-10/
+File name = n-10-k-1-i-1.bit8, file size = 9, number of semigroups = 1
+File name = n-10-k-10-i-1.bit40, file size = 45, number of semigroups = 1
+File name = n-10-k-2-i-1.bit16, file size = 180, number of semigroups = 10
+File name = n-10-k-2-i-2.bit16, file size = 4014, number of semigroups = 223
+File name = n-10-k-3-i-3.bit24, file size = 1134, number of semigroups = 42
+File name = n-10-k-3-i-6.bit24, file size = 42957, number of semigroups = 1591
+File name = n-10-k-4-i-12.bit24, file size = 7128, number of semigroups = 264
+File name = n-10-k-4-i-24.bit24, file size = 54783, number of semigroups = 2029
+File name = n-10-k-4-i-4.bit24, file size = 243, number of semigroups = 9
+File name = n-10-k-4-i-6.bit24, file size = 432, number of semigroups = 16
+File name = n-10-k-4-i-8.bit24, file size = 135, number of semigroups = 5
+File name = n-10-k-5-i-1.bit24, file size = 27, number of semigroups = 1
+File name = n-10-k-5-i-10.bit24, file size = 27, number of semigroups = 1
+File name = n-10-k-5-i-120.bit24, file size = 16686, number of semigroups = 618
+File name = n-10-k-5-i-15.bit24, file size = 27, number of semigroups = 1
+File name = n-10-k-5-i-20.bit24, file size = 1377, number of semigroups = 51
+File name = n-10-k-5-i-24.bit24, file size = 27, number of semigroups = 1
+File name = n-10-k-5-i-30.bit24, file size = 567, number of semigroups = 21
+File name = n-10-k-5-i-40.bit24, file size = 81, number of semigroups = 3
+File name = n-10-k-5-i-5.bit24, file size = 81, number of semigroups = 3
+File name = n-10-k-5-i-60.bit24, file size = 9990, number of semigroups = 370
+File name = n-10-k-6-i-120.bit32, file size = 2088, number of semigroups = 58
+File name = n-10-k-6-i-15.bit32, file size = 144, number of semigroups = 4
+File name = n-10-k-6-i-180.bit32, file size = 1044, number of semigroups = 29
+File name = n-10-k-6-i-240.bit32, file size = 36, number of semigroups = 1
+File name = n-10-k-6-i-30.bit32, file size = 576, number of semigroups = 16
+File name = n-10-k-6-i-360.bit32, file size = 3276, number of semigroups = 91
+File name = n-10-k-6-i-45.bit32, file size = 36, number of semigroups = 1
+File name = n-10-k-6-i-6.bit32, file size = 36, number of semigroups = 1
+File name = n-10-k-6-i-60.bit32, file size = 396, number of semigroups = 11
+File name = n-10-k-6-i-720.bit32, file size = 1152, number of semigroups = 32
+File name = n-10-k-6-i-90.bit32, file size = 180, number of semigroups = 5
+File name = n-10-k-7-i-105.bit32, file size = 108, number of semigroups = 3
+File name = n-10-k-7-i-1260.bit32, file size = 108, number of semigroups = 3
+File name = n-10-k-7-i-140.bit32, file size = 72, number of semigroups = 2
+File name = n-10-k-7-i-210.bit32, file size = 432, number of semigroups = 12
+File name = n-10-k-7-i-2520.bit32, file size = 36, number of semigroups = 1
+File name = n-10-k-7-i-35.bit32, file size = 36, number of semigroups = 1
+File name = n-10-k-7-i-42.bit32, file size = 288, number of semigroups = 8
+File name = n-10-k-7-i-420.bit32, file size = 216, number of semigroups = 6
+File name = n-10-k-7-i-7.bit32, file size = 36, number of semigroups = 1
+File name = n-10-k-7-i-70.bit32, file size = 36, number of semigroups = 1
+File name = n-10-k-7-i-840.bit32, file size = 288, number of semigroups = 8
+File name = n-10-k-8-i-168.bit32, file size = 72, number of semigroups = 2
+File name = n-10-k-8-i-28.bit32, file size = 72, number of semigroups = 2
+File name = n-10-k-8-i-336.bit32, file size = 72, number of semigroups = 2
+File name = n-10-k-8-i-56.bit32, file size = 72, number of semigroups = 2
+File name = n-10-k-8-i-8.bit32, file size = 36, number of semigroups = 1
+File name = n-10-k-8-i-840.bit32, file size = 36, number of semigroups = 1
+File name = n-10-k-9-i-72.bit32, file size = 36, number of semigroups = 1
+File name = n-10-k-9-i-9.bit32, file size = 36, number of semigroups = 1
+Calculating polynomial for n=10
+a^I_10(FS_r) = (1/1!)*( 1*1 )*r
++ (1/2!)*( 1*10 + 2*223 )*r*(r-1)
++ (1/3!)*( 3*42 + 6*1591 )*r*(r-1)*(r-2)
++ (1/4!)*( 4*9 + 6*16 + 8*5 + 12*264 + 24*2029 )*r*(r-1)*(r-2)*(r-3)
++ (1/5!)*( 1*1 + 5*3 + 10*1 + 15*1 + 20*51 + 24*1 + 30*21 + 40*3 + 60*370 + 120*618 )*r*(r-1)*(r-2)*(r-3)*(r-4)
++ (1/6!)*( 6*1 + 15*4 + 30*16 + 45*1 + 60*11 + 90*5 + 120*58 + 180*29 + 240*1 + 360*91 + 720*32 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)
++ (1/7!)*( 7*1 + 35*1 + 42*8 + 70*1 + 105*3 + 140*2 + 210*12 + 420*6 + 840*8 + 1260*3 + 2520*1 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)*(r-6)
++ (1/8!)*( 8*1 + 28*2 + 56*2 + 168*2 + 336*2 + 840*1 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)*(r-6)*(r-7)
++ (1/9!)*( 9*1 + 72*1 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)*(r-6)*(r-7)*(r-8)
++ (1/10!)*( 1*1 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)*(r-6)*(r-7)*(r-8)*(r-9)
+Simplifying polynomial
+a^I_10(FS_r)=(1/3628800)*r^10+(17/80640)*r^9+(5129/120960)*r^8+(14423/5760)*r^7+(5648053/172800)*r^6-(789689/11520)*r^5-(20055283/90720)*r^4+(18449327/20160)*r^3-(28177631/25200)*r^2+(2292/5)*r

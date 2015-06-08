@@ -1,0 +1,8 @@
+Reading from folder: ideals/n-2/
+File name = n-2-k-1-i-1.bit8, file size = 1, number of semigroups = 1
+File name = n-2-k-2-i-1.bit8, file size = 1, number of semigroups = 1
+Calculating polynomial for n=2
+a^I_2(FS_r) = (1/1!)*( 1*1 )*r
++ (1/2!)*( 1*1 )*r*(r-1)
+Simplifying polynomial
+a^I_2(FS_r)=(1/2)*r^2+(1/2)*r

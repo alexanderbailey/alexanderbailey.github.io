@@ -1,0 +1,72 @@
+Reading from folder: subsgps/n-8/
+File name = n-8-k-1-i-1.bit8, file size = 469, number of semigroups = 67
+File name = n-8-k-2-i-1.bit16, file size = 4200, number of semigroups = 300
+File name = n-8-k-2-i-2.bit16, file size = 7990990, number of semigroups = 570785
+File name = n-8-k-3-i-3.bit32, file size = 112196, number of semigroups = 4007
+File name = n-8-k-3-i-6.bit32, file size = 271959968, number of semigroups = 9712856
+File name = n-8-k-4-i-1.bit32, file size = 56, number of semigroups = 2
+File name = n-8-k-4-i-12.bit32, file size = 6245456, number of semigroups = 223052
+File name = n-8-k-4-i-24.bit32, file size = 689555412, number of semigroups = 24626979
+File name = n-8-k-4-i-3.bit32, file size = 112, number of semigroups = 4
+File name = n-8-k-4-i-4.bit32, file size = 8568, number of semigroups = 306
+File name = n-8-k-4-i-6.bit32, file size = 3052, number of semigroups = 109
+File name = n-8-k-4-i-8.bit32, file size = 1008, number of semigroups = 36
+File name = n-8-k-5-i-10.bit40, file size = 210, number of semigroups = 6
+File name = n-8-k-5-i-120.bit40, file size = 643516230, number of semigroups = 18386178
+File name = n-8-k-5-i-15.bit40, file size = 35, number of semigroups = 1
+File name = n-8-k-5-i-20.bit40, file size = 711795, number of semigroups = 20337
+File name = n-8-k-5-i-30.bit40, file size = 62230, number of semigroups = 1778
+File name = n-8-k-5-i-40.bit40, file size = 2170, number of semigroups = 62
+File name = n-8-k-5-i-5.bit40, file size = 3430, number of semigroups = 98
+File name = n-8-k-5-i-60.bit40, file size = 33386990, number of semigroups = 953914
+File name = n-8-k-6-i-120.bit40, file size = 1753640, number of semigroups = 50104
+File name = n-8-k-6-i-15.bit40, file size = 210, number of semigroups = 6
+File name = n-8-k-6-i-180.bit40, file size = 543760, number of semigroups = 15536
+File name = n-8-k-6-i-240.bit40, file size = 105, number of semigroups = 3
+File name = n-8-k-6-i-30.bit40, file size = 76545, number of semigroups = 2187
+File name = n-8-k-6-i-360.bit40, file size = 28394310, number of semigroups = 811266
+File name = n-8-k-6-i-6.bit40, file size = 1330, number of semigroups = 38
+File name = n-8-k-6-i-60.bit40, file size = 18235, number of semigroups = 521
+File name = n-8-k-6-i-720.bit40, file size = 176295210, number of semigroups = 5037006
+File name = n-8-k-6-i-90.bit40, file size = 1680, number of semigroups = 48
+File name = n-8-k-7-i-105.bit48, file size = 3696, number of semigroups = 88
+File name = n-8-k-7-i-1260.bit48, file size = 592158, number of semigroups = 14099
+File name = n-8-k-7-i-140.bit48, file size = 1764, number of semigroups = 42
+File name = n-8-k-7-i-1680.bit48, file size = 84, number of semigroups = 2
+File name = n-8-k-7-i-210.bit48, file size = 102816, number of semigroups = 2448
+File name = n-8-k-7-i-2520.bit48, file size = 8139642, number of semigroups = 193801
+File name = n-8-k-7-i-42.bit48, file size = 9408, number of semigroups = 224
+File name = n-8-k-7-i-420.bit48, file size = 81984, number of semigroups = 1952
+File name = n-8-k-7-i-5040.bit48, file size = 21854532, number of semigroups = 520346
+File name = n-8-k-7-i-630.bit48, file size = 5880, number of semigroups = 140
+File name = n-8-k-7-i-7.bit48, file size = 546, number of semigroups = 13
+File name = n-8-k-7-i-840.bit48, file size = 938154, number of semigroups = 22337
+File name = n-8-k-8-i-1.bit48, file size = 42, number of semigroups = 1
+File name = n-8-k-8-i-10080.bit48, file size = 96264, number of semigroups = 2292
+File name = n-8-k-8-i-1120.bit48, file size = 1680, number of semigroups = 40
+File name = n-8-k-8-i-13440.bit48, file size = 126, number of semigroups = 3
+File name = n-8-k-8-i-168.bit48, file size = 504, number of semigroups = 12
+File name = n-8-k-8-i-1680.bit48, file size = 17388, number of semigroups = 414
+File name = n-8-k-8-i-20160.bit48, file size = 517692, number of semigroups = 12326
+File name = n-8-k-8-i-2520.bit48, file size = 168, number of semigroups = 4
+File name = n-8-k-8-i-280.bit48, file size = 504, number of semigroups = 12
+File name = n-8-k-8-i-336.bit48, file size = 3318, number of semigroups = 79
+File name = n-8-k-8-i-3360.bit48, file size = 27258, number of semigroups = 649
+File name = n-8-k-8-i-40320.bit48, file size = 685608, number of semigroups = 16324
+File name = n-8-k-8-i-5040.bit48, file size = 5796, number of semigroups = 138
+File name = n-8-k-8-i-56.bit48, file size = 714, number of semigroups = 17
+File name = n-8-k-8-i-560.bit48, file size = 168, number of semigroups = 4
+File name = n-8-k-8-i-6720.bit48, file size = 88494, number of semigroups = 2107
+File name = n-8-k-8-i-8.bit48, file size = 126, number of semigroups = 3
+File name = n-8-k-8-i-840.bit48, file size = 3696, number of semigroups = 88
+Calculating polynomial for n=8
+a_8(FS_r) = (1/1!)*( 1*67 )*r
++ (1/2!)*( 1*300 + 2*570785 )*r*(r-1)
++ (1/3!)*( 3*4007 + 6*9712856 )*r*(r-1)*(r-2)
++ (1/4!)*( 1*2 + 3*4 + 4*306 + 6*109 + 8*36 + 12*223052 + 24*24626979 )*r*(r-1)*(r-2)*(r-3)
++ (1/5!)*( 5*98 + 10*6 + 15*1 + 20*20337 + 30*1778 + 40*62 + 60*953914 + 120*18386178 )*r*(r-1)*(r-2)*(r-3)*(r-4)
++ (1/6!)*( 6*38 + 15*6 + 30*2187 + 60*521 + 90*48 + 120*50104 + 180*15536 + 240*3 + 360*811266 + 720*5037006 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)
++ (1/7!)*( 7*13 + 42*224 + 105*88 + 140*42 + 210*2448 + 420*1952 + 630*140 + 840*22337 + 1260*14099 + 1680*2 + 2520*193801 + 5040*520346 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)*(r-6)
++ (1/8!)*( 1*1 + 8*3 + 56*17 + 168*12 + 280*12 + 336*79 + 560*4 + 840*88 + 1120*40 + 1680*414 + 2520*4 + 3360*649 + 5040*138 + 6720*2107 + 10080*2292 + 13440*3 + 20160*12326 + 40320*16324 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)*(r-6)*(r-7)
+Simplifying polynomial
+a_8(FS_r)=(947714177/40320)*r^8-(5336487/160)*r^7-(55786441/576)*r^6+(7419257/24)*r^5-(2105526961/5760)*r^4+(110385341/480)*r^3-(52875299/672)*r^2+(95103/8)*r

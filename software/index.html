@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Alex Bailey</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div id="container">
+<br>
+<div id="titles">
+<a id="page-title" href="../">Home</a>&nbsp;&nbsp;&nbsp;
+<a id="page-title" href="../research.html">Research</a>&nbsp;&nbsp;&nbsp;
+<a id="page-title" href="../publications.html">Publications</a>&nbsp;&nbsp;&nbsp;
+<a id="page-title" href="../seminars.html">Seminars</a>&nbsp;&nbsp;&nbsp;
+Software&nbsp;&nbsp;&nbsp;
+<a id="page-title" href="../cv.html">CV</a>
+</div>
+<br><br>
+<span id="heading">Software</span><br>
+<br>
+This page describes the software I wrote for counting subsemigroups, ideals and congruences of free semigroups. For background material and a description of the algorithms used, see
+<a href="http://arxiv.org/abs/1409.2444">this paper</a>.
+<br><br>
+<span id="heading";>FISOFS</span>
+<br><br>
+This is a collection of C++ files for constructing all finite (Rees) index subsemigroups of free semigroups, quite lamely called 'FISOFS'. It is recursive in nature, calculating the index n subsemigroups from
+those of index n-1.
+<br><br>
+For free rank equal to 1 the number of subsemigroups grows asymptotically like the Fibonacci numbers, for free rank greater than 1, they grow superexponentially (i.e. there are a lot of them!) Therefore it was written with the intention of being run in parallel to make use of available HPC facilities.
+<br><br>
+We ran the code on the
+<a href="http://www.southampton.ac.uk/isolutions/computing/hpc/iridis/">Iridis 4</a>
+compute cluster and calculated all subsemigroups of index 9. The 9th polynomial took 2 hours 30 minutes to compute (this would have taken approximately one week on a standard desktop computer).
+<br><br>
+You can download the source code
+<a href="FISOFS.tar.gz">here</a>
+or visit the GitHub repository
+<a href="http://github.com/alexanderbailey/FISOFS">here</a>.
+<br><br>
+You can also download precomputed data files up to index 8 here:
+<br>
+<ul>
+<li>
+For
+<a href="subsgps-2-7.tar.gz">index 2 through 7</a>
+(7.8MB, extracted 57MB).
+</li>
+<li>
+For index 8
+[<a href="subsgps-8a.tar.gz">file 1</a>,
+<a href="subsgps-8b.tar.gz">file 2</a>]
+(178MB, extracted 1.8GB).
+</li>
+</ul>
+For a summary of the orbit data for each support size and the subsequent polynomials see
+<a href="subsgpsorbitdata.html">here</a>.
+<br><br>
+For an HTML depiction of the subsemigroup tree of FS<sub>2</sub>, see
+<a href="subsemigrouptree.html">here</a>.
+<br><br>
+<span id="heading">FIIOFS</span>
+<br><br>
+This is almost identical to the code above except it calculates (Rees) index n ideals of free semigroups.
+<br><br>
+You can download the source code
+<a href="FIIOFS.tar.gz">here</a>
+or visit the GitHub repository
+<a href="http://github.com/alexanderbailey/FIIOFS">here</a>.
+<br><br>
+You can download precomputed data files here:
+<br>
+<ul>
+<li>
+For index <a href="ideals-2-12.tar.gz">2 through 12</a> (350KB, extracted 4.1MB)
+</li>
+<li>
+For index <a href="ideals-2-25.tar.gz">2 through 25</a>, just for support 1 and 2 (34MB, extracted 871MB)
+</li>
+</ul>
+For a summary of the orbit data for each support size and the subsequent polynomials see
+<a href="idealsorbitdata.html">here</a>.
+<br><br>
+<span id="heading">Congruences</span>
+<br><br>
+<a href="asc-gen-tables.g">Here</a>
+is the GAP code I used to calculate the number of 'ascendingly generated' Cayley tables which was used to
+<a href="get_exp.g">calculate</a>
+the number of n class congruences on the free semigroups, up to n=7. It makes use of the Smallsemi data library.
+<br><br>
+</div>
+</body>
+</html>
+

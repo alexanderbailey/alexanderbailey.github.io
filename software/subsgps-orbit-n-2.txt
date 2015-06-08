@@ -1,0 +1,9 @@
+Reading from folder: subsgps/n-2/
+File name = n-2-k-1-i-1.bit8, file size = 2, number of semigroups = 2
+File name = n-2-k-2-i-1.bit8, file size = 1, number of semigroups = 1
+File name = n-2-k-2-i-2.bit8, file size = 3, number of semigroups = 3
+Calculating polynomial for n=2
+a_2(FS_r) = (1/1!)*( 1*2 )*r
++ (1/2!)*( 1*1 + 2*3 )*r*(r-1)
+Simplifying polynomial
+a_2(FS_r)=(7/2)*r^2-(3/2)*r

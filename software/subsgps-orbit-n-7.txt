@@ -1,0 +1,46 @@
+Reading from folder: subsgps/n-7/
+File name = n-7-k-1-i-1.bit8, file size = 234, number of semigroups = 39
+File name = n-7-k-2-i-2.bit16, file size = 845340, number of semigroups = 70445
+File name = n-7-k-3-i-3.bit24, file size = 17172, number of semigroups = 954
+File name = n-7-k-3-i-6.bit24, file size = 12211002, number of semigroups = 678389
+File name = n-7-k-4-i-12.bit32, file size = 562104, number of semigroups = 23421
+File name = n-7-k-4-i-24.bit32, file size = 26112936, number of semigroups = 1088039
+File name = n-7-k-4-i-4.bit32, file size = 2760, number of semigroups = 115
+File name = n-7-k-4-i-8.bit32, file size = 312, number of semigroups = 13
+File name = n-7-k-5-i-10.bit32, file size = 144, number of semigroups = 6
+File name = n-7-k-5-i-120.bit32, file size = 12160752, number of semigroups = 506698
+File name = n-7-k-5-i-20.bit32, file size = 52704, number of semigroups = 2196
+File name = n-7-k-5-i-30.bit32, file size = 7920, number of semigroups = 330
+File name = n-7-k-5-i-40.bit32, file size = 24, number of semigroups = 1
+File name = n-7-k-5-i-5.bit32, file size = 912, number of semigroups = 38
+File name = n-7-k-5-i-60.bit32, file size = 1259472, number of semigroups = 52478
+File name = n-7-k-6-i-120.bit40, file size = 73440, number of semigroups = 2448
+File name = n-7-k-6-i-180.bit40, file size = 29820, number of semigroups = 994
+File name = n-7-k-6-i-30.bit40, file size = 6720, number of semigroups = 224
+File name = n-7-k-6-i-360.bit40, file size = 693690, number of semigroups = 23123
+File name = n-7-k-6-i-6.bit40, file size = 390, number of semigroups = 13
+File name = n-7-k-6-i-60.bit40, file size = 2640, number of semigroups = 88
+File name = n-7-k-6-i-720.bit40, file size = 2342250, number of semigroups = 78075
+File name = n-7-k-7-i-1.bit40, file size = 30, number of semigroups = 1
+File name = n-7-k-7-i-105.bit40, file size = 360, number of semigroups = 12
+File name = n-7-k-7-i-1260.bit40, file size = 10080, number of semigroups = 336
+File name = n-7-k-7-i-140.bit40, file size = 180, number of semigroups = 6
+File name = n-7-k-7-i-1680.bit40, file size = 30, number of semigroups = 1
+File name = n-7-k-7-i-210.bit40, file size = 2370, number of semigroups = 79
+File name = n-7-k-7-i-2520.bit40, file size = 69120, number of semigroups = 2304
+File name = n-7-k-7-i-42.bit40, file size = 510, number of semigroups = 17
+File name = n-7-k-7-i-420.bit40, file size = 2640, number of semigroups = 88
+File name = n-7-k-7-i-5040.bit40, file size = 99870, number of semigroups = 3329
+File name = n-7-k-7-i-630.bit40, file size = 420, number of semigroups = 14
+File name = n-7-k-7-i-7.bit40, file size = 90, number of semigroups = 3
+File name = n-7-k-7-i-840.bit40, file size = 12240, number of semigroups = 408
+Calculating polynomial for n=7
+a_7(FS_r) = (1/1!)*( 1*39 )*r
++ (1/2!)*( 2*70445 )*r*(r-1)
++ (1/3!)*( 3*954 + 6*678389 )*r*(r-1)*(r-2)
++ (1/4!)*( 4*115 + 8*13 + 12*23421 + 24*1088039 )*r*(r-1)*(r-2)*(r-3)
++ (1/5!)*( 5*38 + 10*6 + 20*2196 + 30*330 + 40*1 + 60*52478 + 120*506698 )*r*(r-1)*(r-2)*(r-3)*(r-4)
++ (1/6!)*( 6*13 + 30*224 + 60*88 + 120*2448 + 180*994 + 360*23123 + 720*78075 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)
++ (1/7!)*( 1*1 + 7*3 + 42*17 + 105*12 + 140*6 + 210*79 + 420*88 + 630*14 + 840*408 + 1260*336 + 1680*1 + 2520*2304 + 5040*3329 )*r*(r-1)*(r-2)*(r-3)*(r-4)*(r-5)*(r-6)
+Simplifying polynomial
+a_7(FS_r)=(11708603/2520)*r^7-(87143/12)*r^6-(146903/18)*r^5+(54431/2)*r^4-(9126049/360)*r^3+(129725/12)*r^2-(13019/7)*r
