@@ -1,5 +1,7 @@
 body               {background-color:#FFF; color: #484c5d; font-family: "Verdana"; font-size: 105%}
 a                  {color:#992200}
+table              {1px: border solid black; width: 100%} 
+th                 {background-color: #DDDDDD}
 #page-title        {font-weight: normal; color: #273132}
 #heading           {font-family: "depot-new-condensed-1", "depot-new-condensed-2", sans-serif;
                     font-weight: 600; font-size: 130%; color: #273132;}
