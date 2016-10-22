@@ -1,0 +1,261 @@
+<html>
+<head>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<title>Alex Bailey</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div style="margin-left:5%; margin-right:5%; width=90%">
+<div id="titles">
+<a id="page-title" href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;
+<a id="page-title" href="../research.html">Research</a>&nbsp;&nbsp;&nbsp;
+<a id="page-title" href="../publications.html">Publications</a>&nbsp;&nbsp;&nbsp;
+<a id="page-title" href="../seminars.html">Seminars</a>&nbsp;&nbsp;&nbsp;
+<a id="page-title" href="./">Software</a>&nbsp;&nbsp;&nbsp;
+<a id="page-title" href="../cv.html">CV</a>
+</div>
+<br><br>
+
+<span id="heading">Number \(a_n(FS_r)\) of index n subsemigroups of the free semigroup of rank r</span>
+<br><br>
+<div style="font-size:75%">The following values were computed using <a href="https://github.com/alexanderbailey/FISOFS">this</a> code. For a summary of the orbit data for each support size and the subsequent polynomials see <a href="subsgpsorbitdata.html">here</a>.</div>
+<br>
+<table style="text-align: left; font-size: 85%">
+<tr><th>r \ n</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th></tr>
+<tr><th>1</th>
+<td>1</td><td>2</td><td>4</td><td>7</td><td>12</td><td>23</td><td>39</td><td>67</td><td>118</td></tr>
+<tr><th>2</th>
+<td>2</td><td>11</td><td>62</td><td>382</td><td>2562</td><td>18413</td><td>140968</td><td>1142004</td><td>9745298</td></tr>
+<tr><th>3</th>
+<td>3</td><td>27</td><td>250</td><td>2568</td><td>28746</td><td>347691</td><td>4495983</td><td>61714968</td><td>894242997</td></tr>
+<tr><th>4</th>
+<td>4</td><td>50</td><td>644</td><td>9209</td><td>143416</td><td>2415078</td><td>43532832</td><td>833734416</td><td>16863679508</td></tr>
+<tr><th>5</th>
+<td>5</td><td>80</td><td>1320</td><td>24150</td><td>480736</td><td>10340800</td><td>238120365</td><td>5826981430</td><td>150609007570</td></tr>
+<tr><th>6</th>
+<td>6</td><td>117</td><td>2354</td><td>52437</td><td>1269738</td><td>33192442</td><td>928558122</td><td>27600653310</td><td>866466783828</td></tr>
+<tr><th>7</th>
+<td>7</td><td>161</td><td>3822</td><td>100317</td><td>2859878</td><td>87935351</td><td>2892046165</td><td>101031525714</td><td>3726895105059</td></tr>
+<tr><th>8</th>
+<td>8</td><td>212</td><td>5800</td><td>175238</td><td>5746592</td><td>203079088</td><td>7672012360</td><td>307755240801</td><td>13032655134280</td></tr>
+<tr><th>9</th>
+<td>9</td><td>270</td><td>8364</td><td>285849</td><td>10596852</td><td>423019929</td><td>18042714315</td><td>816825050010</td><td>39027404931886</td></tr>
+<tr><th>10</th>
+<td>10</td><td>335</td><td>11590</td><td>442000</td><td>18274722</td><td>813079415</td><td>38632533180</td><td>1947580054285</td><td>103592924112830</td></tr>
+<tr><th>11</th>
+<td>11</td><td>407</td><td>15554</td><td>654742</td><td>29866914</td><td>1465238951</td><td>76729376515</td><td>4261622698733</td><td>249671899238553</td></tr>
+<tr><th>12</th>
+<td>12</td><td>486</td><td>20332</td><td>936327</td><td>46708344</td><td>2504570454</td><td>143291607432</td><td>8692072992879</td><td>556011110821900</td></tr>
+<tr><th>13</th>
+<td>13</td><td>572</td><td>26000</td><td>1300208</td><td>70407688</td><td>4096363050</td><td>254187917217</td><td>16718094641859</td><td>1159218973374618</td></tr>
+<tr><th>14</th>
+<td>14</td><td>665</td><td>32634</td><td>1761039</td><td>102872938</td><td>6453945820</td><td>431689558638</td><td>30595875988069</td><td>2285577690060224</td></tr>
+<tr><th>15</th>
+<td>15</td><td>765</td><td>40310</td><td>2334675</td><td>146336958</td><td>9847206595</td><td>706238357145</td><td>53655396376965</td><td>4295541793230055</td></tr>
+<tr><th>16</th>
+<td>16</td><td>872</td><td>49104</td><td>3038172</td><td>203383040</td><td>14611806800</td><td>1118513917168</td><td>90675496274886</td><td>7744391551417168</td></tr>
+<tr><th>17</th>
+<td>17</td><td>986</td><td>59092</td><td>3889787</td><td>276970460</td><td>21159092347</td><td>1721823440719</td><td>148349597180949</td><td>13463091632241446</td></tr>
+<tr><th>18</th>
+<td>18</td><td>1107</td><td>70350</td><td>4908978</td><td>370460034</td><td>29986700577</td><td>2584837575504</td><td>235855685089242</td><td>22664032519139786</td></tr>
+<tr><th>19</th>
+<td>19</td><td>1235</td><td>82954</td><td>6116404</td><td>487639674</td><td>41689863251</td><td>3794695709751</td><td>365545078971718</td><td>37077004487877597</td></tr>
+<tr><th>20</th>
+<td>20</td><td>1370</td><td>96980</td><td>7533925</td><td>632749944</td><td>56973405590</td><td>5460504130960</td><td>553765453466370</td><td>59121471456422020</td></tr>
+</table>
+
+<br>
+
+<div class="math" style="font-size:65%">
+\begin{align}
+a_n(FS_1)&=\href{https://oeis.org/A007323}{A007323}(n) \\[1em]
+a_1(FS_r)&=r \\[1em]
+a_2(FS_r)&=\frac{7}{2}r^2-\frac{3}{2}r \\[1em]
+a_3(FS_r)&=\frac{38}{3}r^3-\frac{11}r^2+\frac{7}{3}r \\[1em]
+a_4(FS_r)&=\frac{1201}{24}r^4-\frac{239}{4}r^3+\frac{311}{24}r^2+\frac{15}{4}r \\[1em]
+a_5(FS_r)&=\frac{6389}{30}r^5-\frac{613}{2}r^4+\frac{185}{6}r^3+\frac{255}{2}r^2-\frac{264}{5} \\[1em]
+a_6(FS_r)&=\frac{696049}{720}r^6-\frac{72727}{48}r^5-\frac{58627}{144}r^4+\frac{33101}{16}r^3-\frac{509257}{360}r^2+\frac{973}{3} \\[1em]
+a_7(FS_r)&=\frac{11708603}{2520}r^7-\frac{87143}{12}r^6-\frac{146903}{18}r^5+\frac{54431}{2}r^4-\frac{9126049}{360}r^3+\frac{129725}{12}r^2-\frac{13019}{7}r \\[1em]
+a_8(FS_r)&=\frac{947714177}{40320}r^8-\frac{5336487}{160}r^7-\frac{55786441}{576}r^6+\frac{7419257}{24}r^5-\frac{2105526961}{5760}r^4+\frac{110385341}{480}r^3-\frac{52875299}{672}r^2+\frac{95103}{8}r \\[1em]
+a_9(FS_r)&=\frac{5649947729}{45360}r^9-\frac{78967849}{560}r^8-\frac{1039050691}{1080}r^7+\frac{142822454}{45}r^6-\frac{9770306269}{2160}r^5+\frac{2708660903}{720}r^4-\frac{44177206909}{22680}r^3+\frac{378138079}{630}r^2-\frac{776555}{9}r
+\end{align}
+</div>
+
+<br><br>
+<span id="heading">Number \(a^I_n(FS_r)\) of index n ideals of the free semigroup of rank r</span>
+<br><br>
+<div style="font-size:75%">The following values were computed using <a href="https://github.com/alexanderbailey/FIIOFS">this</a> code. For a summary of the orbit data for each support size and the subsequent polynomials see <a href="idealsorbitdata.html">here</a>.</div>
+<br>
+<table style="text-align: left; font-size: 85%">
+<tr><th>r \ n</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th></tr>
+<tr><th>1</th>
+<td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+<tr><th>2</th>
+<td>2</td><td>3</td><td>6</td><td>10</td><td>20</td><td>35</td><td>68</td><td>126</td><td>242</td><td>458</td><td>886</td><td>1696</td></tr>
+<tr><th>3</th>
+<td>3</td><td>6</td><td>16</td><td>36</td><td>96</td><td>237</td><td>624</td><td>1608</td><td>4221</td><td>11043</td><td>29109</td><td>76768</td></tr>
+<tr><th>4</th>
+<td>4</td><td>10</td><td>32</td><td>89</td><td>284</td><td>866</td><td>2776</td><td>8860</td><td>28744</td><td>93464</td><td>305608</td><td>1000982</td></tr>
+<tr><th>5</th>
+<td>5</td><td>15</td><td>55</td><td>180</td><td>656</td><td>2330</td><td>8620</td><td>32020</td><td>120900</td><td>459660</td><td>1761230</td><td>6779350</td></tr>
+<tr><th>6</th>
+<td>6</td><td>21</td><td>86</td><td>321</td><td>1302</td><td>5212</td><td>21582</td><td>90132</td><td>382602</td><td>1639917</td><td>7096674</td><td>30926564</td></tr>
+<tr><th>7</th>
+<td>7</td><td>28</td><td>126</td><td>525</td><td>2331</td><td>10297</td><td>46796</td><td>215012</td><td>1003877</td><td>4740008</td><td>22622985</td><td>108914792</td></tr>
+<tr><th>8</th>
+<td>8</td><td>36</td><td>176</td><td>806</td><td>3872</td><td>18600</td><td>91520</td><td>455849</td><td>2306152</td><td>11808484</td><td>61161312</td><td>319883860</td></tr>
+<tr><th>9</th>
+<td>9</td><td>45</td><td>237</td><td>1179</td><td>6075</td><td>31395</td><td>165591</td><td>884592</td><td>4796848</td><td>26337348</td><td>146326572</td><td>821478540</td></tr>
+<tr><th>10</th>
+<td>10</td><td>55</td><td>310</td><td>1660</td><td>9112</td><td>50245</td><td>281920</td><td>1602175</td><td>9236660</td><td>53921531</td><td>318568940</td><td>1902539090</td></tr>
+<tr><th>11</th>
+<td>11</td><td>66</td><td>396</td><td>2266</td><td>13178</td><td>77033</td><td>457028</td><td>2745633</td><td>16720968</td><td>103104859</td><td>643399813</td><td>4059329428</td></tr>
+<tr><th>12</th>
+<td>12</td><td>78</td><td>496</td><td>3015</td><td>18492</td><td>113994</td><td>711624</td><td>4496163</td><td>28776892</td><td>186442554</td><td>1222285176</td><td>8102047571</td></tr>
+<tr><th>13</th>
+<td>13</td><td>91</td><td>611</td><td>3926</td><td>25298</td><td>163748</td><td>1071226</td><td>7088185</td><td>47477573</td><td>321812751</td><td>2206749233</td><td>15299530558</td></tr>
+<tr><th>14</th>
+<td>14</td><td>105</td><td>742</td><td>5019</td><td>33866</td><td>229334</td><td>1566826</td><td>10819459</td><td>75575332</td><td>534012038</td><td>3816294860</td><td>27571346453</td></tr>
+<tr><th>15</th>
+<td>15</td><td>120</td><td>890</td><td>6315</td><td>44493</td><td>314245</td><td>2235600</td><td>16062315</td><td>116655430</td><td>856672638</td><td>6360814995</td><td>47737864765</td></tr>
+<tr><th>16</th>
+<td>16</td><td>136</td><td>1056</td><td>7836</td><td>57504</td><td>422464</td><td>3121664</td><td>23276054</td><td>175312224</td><td>1334541552</td><td>10268240608</td><td>79840419428</td></tr>
+<tr><th>17</th>
+<td>17</td><td>153</td><td>1241</td><td>9605</td><td>73253</td><td>558501</td><td>4276877</td><td>33020579</td><td>257349587</td><td>2026164771</td><td>16118246499</td><td>129545331183</td></tr>
+<tr><th>18</th>
+<td>18</td><td>171</td><td>1446</td><td>11646</td><td>92124</td><td>727431</td><td>5761692</td><td>45971316</td><td>370007534</td><td>3007022544</td><td>24682915962</td><td>204647344752</td></tr>
+<tr><th>19</th>
+<td>19</td><td>190</td><td>1672</td><td>13984</td><td>114532</td><td>934933</td><td>7646056</td><td>62935486</td><td>522217071</td><td>4373164659</td><td>36975349437</td><td>315689966676</td></tr>
+<tr><th>20</th>
+<td>20</td><td>210</td><td>1920</td><td>16645</td><td>140924</td><td>1187330</td><td>10010360</td><td>84869790</td><td>724885360</td><td>6245397756</td><td>54307290760</td><td>476722268320</td></tr>
+</table>
+
+<br>
+
+<div class="math" style="font-size:65%">
+\begin{align*}
+a^I_n(FS_1)&=1 \\[1em]
+a^I_n(FS_2)& \sim \href{http://oeis.org/A001405}{A001405}(n+1) ? \\[1em]
+a^I_1(FS_r)&=r \\[1em]
+a^I_2(FS_r)&=\frac{1}{2}r^2+\frac{1}{2}r \\[1em]
+a^I_3(FS_r)&=\frac{1}{6}r^3+\frac{3}{2}r^2-\frac{2}{3}r \\[1em]
+a^I_4(FS_r)&=\frac{1}{24}r^4+\frac{5}{4}r^3-\frac{1}{24}r^2-\frac{1}{4}r \\[1em]
+a^I_5(FS_r)&=\frac{1}{120}r^5+\frac{7}{12}r^4+\frac{67}{24}r^3-\frac{43}{12}r^2+\frac{6}{5}r \\[1em]
+a^I_6(FS_r)&=\frac{1}{720}r^6+\frac{3}{16}r^5+\frac{461}{144}r^4-\frac{73}{48}r^3-\frac{1513}{360}r^2+\frac{10}{3}r \\[1em]
+a^I_7(FS_r)&=\frac{1}{5040}r^7+\frac{11}{240}r^6+\frac{263}{144}r^5+\frac{115}{16}r^4-\frac{8089}{360}r^3+\frac{319}{15}r^2-\frac{48}{7}r \\[1em]
+a^I_8(FS_r)&=\frac{1}{40320}r^8+\frac{13}{1440}r^7+\frac{1979}{2880}r^6+\frac{173}{18}r^5-\frac{66113}{5760}r^4-\frac{43913}{1440}r^3+\frac{227777}{3360}r^2-\frac{281}{8}r \\[1em]
+a^I_9(FS_r)&=\frac{1}{362880}r^9+\frac{1}{672}r^8+\frac{1657}{8640}r^7+\frac{547}{90}r^6+\frac{377749}{17280}r^5-\frac{37105}{288}r^4+\frac{18446699}{90720}r^3-\frac{294191}{2520}r^2+\frac{136}{9}r \\[1em]
+a^I_{10}(FS_r)&=\frac{1}{3628800}r^{10}+\frac{17}{80640}r^9+\frac{5129}{120960}r^8+\frac{14423}{5760}r^7+\frac{5648053}{172800}r^6-\frac{789689}{11520}r^5-\frac{20055283}{90720}r^4+\frac{18449327}{20160}r^3-\frac{28177631}{25200}r^2+\frac{2292}{5}r \\[1em]
+a^I_{11}(FS_r)&=\frac{1}{39916800}r^{11}+\frac{19}{725760}r^{10}+\frac{937}{120960}r^9+\frac{91897}{120960}r^8+\frac{3771383}{172800}r^7+\frac{2583703}{34560}r^6-\frac{133247833}{181440}r^5+\frac{289546877}{181440}r^4-\frac{5427659}{6300}r^3-\frac{1158377}{1260}r^2+\frac{9054}{11}r \\[1em]
+a^I_{12}(FS_r)&=\frac{1}{479001600}r^{12}+\frac{1}{345600}r^{11}+\frac{10487}{8709120}r^{10}+\frac{17567}{96768}r^9+\frac{137379751}{14515200}r^8+\frac{1567309}{12800}r^7-\frac{664752743}{1741824}r^6-\frac{22482445}{13824}r^5+\frac{108858294689}{10886400}r^4-\frac{11855920577}{604800}r^3+\frac{5629166951}{332640}r^2-\frac{21769}{4}r
+\end{align*}
+</div>
+
+<br><br>
+<span id="heading">Number \(a^C_n(FS_r)\) of n-class congruences on the free semigroup of rank r</span>
+<br><br>
+<div style="font-size:75%">The following table was computed using the \(T(n,k)\) values below and <a href="get_exp.g">this</a> GAP code.</div>
+<br>
+<table style="text-align: left; font-size: 85%">
+<tr><th>r \ n</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr>
+<tr><th>1</th>
+<td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><th>2</th>
+<td>1</td><td>10</td><td>40</td><td>149</td><td>457</td><td>1380</td><td>3940</td></tr>
+<tr><th>3</th>
+<td>1</td><td>26</td><td>227</td><td>1696</td><td>10381</td><td>64954</td><td>367829</td></tr>
+<tr><th>4</th>
+<td>1</td><td>58</td><td>940</td><td>12053</td><td>124683</td><td>1312774</td><td>32656398</td></tr>
+<tr><th>5</th>
+<td>1</td><td>122</td><td>3383</td><td>68524</td><td>1089957</td><td>17321988</td><td>780465754</td></tr>
+<tr><th>6</th>
+<td>1</td><td>250</td><td>11320</td><td>344609</td><td>7962407</td><td>179542398</td><td>12045020929</td></tr>
+<tr><th>7</th>
+<td>1</td><td>506</td><td>36347</td><td>1609696</td><td>52053881</td><td>1600876052</td><td>147519031977</td></tr>
+<tr><th>8</th>
+<td>1</td><td>1018</td><td>113860</td><td>7172573</td><td>316326523</td><td>12911778902</td><td>1565476753784</td></tr>
+<tr><th>9</th>
+<td>1</td><td>2042</td><td>351263</td><td>30972244</td><td>1828173277</td><td>97095768316</td><td>15081546028136</td></tr>
+<tr><th>10</th>
+<td>1</td><td>4090</td><td>1073200</td><td>130896569</td><td>10196063247</td><td>694127660206</td><td>135628506406503</td></tr>
+<tr><th>11</th>
+<td>1</td><td>8186</td><td>3258467</td><td>544933096</td><td>55412413281</td><td>4779497152260</td><td>1159259144898895</td></tr>
+<tr><th>12</th>
+<td>1</td><td>16378</td><td>9853180</td><td>2244421493</td><td>295432808963</td><td>31988435265990</td><td>9533744204879710</td></tr>
+<tr><th>13</th>
+<td>1</td><td>32762</td><td>29715143</td><td>9173051164</td><td>1552590940997</td><td>209469188672204</td><td>76099049497779198</td></tr>
+<tr><th>14</th>
+<td>1</td><td>65530</td><td>89456680</td><td>37280896529</td><td>8070527804887</td><td>1348524331804574</td><td>593323024246963037</td></tr>
+<tr><th>15</th>
+<td>1</td><td>131066</td><td>268992587</td><td>150894854896</td><td>41600595455881</td><td>8566031734908628</td><td>4540142135847262133</td></tr>
+<tr><th>16</th>
+<td>1</td><td>262138</td><td>808222900</td><td>608903612813</td><td>213047930085003</td><td>53836804230621238</td><td>34221197250091626276</td></tr>
+<tr><th>17</th>
+<td>1</td><td>524282</td><td>2427159023</td><td>2451607805284</td><td>1085579112867117</td><td>335491118566317852</td><td>254797914798557657140</td></tr>
+<tr><th>18</th>
+<td>1</td><td>1048570</td><td>7286457760</td><td>9854452832489</td><td>5509732907735326</td><td>2076374535267426702</td><td>1878179549788810530931</td></tr>
+<tr><th>19</th>
+<td>1</td><td>2097146</td><td>21869334707</td><td>39561959263096</td><td>27877453473125681</td><td>12779714168984616356</td><td>13730528967947333170491</td></tr>
+<tr><th>20</th>
+<td>1</td><td>4194298</td><td>65627927020</td><td>158680447050533</td><td>140706743945898643</td><td>78302998414071527846</td><td>99692765346386868067082</td></tr>
+</table>
+
+<br>
+
+<div class="math" style="font-size:65%">
+\begin{align*}
+a^C_n(FS_1)&=n &\text{where:}\qquad{r \brace k}&=\href{http://oeis.org/A008277}{A008277}(r,k)&& \\[1em]
+a^C_1(FS_r)&={r \brace 1}T(1,1) &s(n,k)&=\href{http://oeis.org/A008275}{A008275}(n,k)&& \\[1em]
+           &=-s(2,1)\cdot 1 &\text{and}\qquad T(n,k)&=\text{ [ see below ]}&& \\[1em]
+           &=1 \\[1em]
+a^C_2(FS_r)&={r \brace 1}T(2,1)+{r \brace 2}T(2,2) \\[1em]
+           &=-s(3,1)\cdot a^C_2(FS_{r-2})-s(3,2)\cdot a^C_2(FS_{r-1}) \\[1em]
+           &=4\cdot 2^r-6=\href{http://oeis.org/A131130}{A131130}(r) \\[1em]
+a^C_3(FS_r)&={r \brace 1}T(3,1)+{r \brace 2}T(3,2)+{r \brace 3}T(3,3) \\[1em]
+           &=-s(4,1)\cdot a^C_3(FS_{r-3})-s(4,2)\cdot a^C_3(FS_{r-2})-s(4,3)\cdot a^C_3(FS_{r-1}) \\[1em]
+           &= \frac{113}{6}\cdot 3^r-38\cdot 2^r+\frac{45}{2} \\[1em]
+a^C_4(FS_r)&={r \brace 1}T(4,1)+{r \brace 2}T(4,2)+{r \brace 3}T(4,3)+{r \brace 4}T(4,4) \\[1em]
+           &=-s(5,1)\cdot a^C_4(FS_{r-4})-s(5,2)\cdot a^C_4(FS_{r-3})-s(5,3)\cdot a^C_4(FS_{r-2})-s(5,4)\cdot a^C_4(FS_{r-1}) \\[1em]
+           &=\frac{291}{2}\cdot 4^r-\frac{745}{2}\cdot 3^r+317\cdot 2^r-\frac{189}{2} \\[1em]
+a^C_5(FS_r)&={r \brace 1}T(5,1)+{r \brace 2}T(5,2)+{r \brace 3}T(5,3)+{r \brace 4}T(5,4)+{r \brace 5}T(5,5) \\[1em]
+           &=-s(6,1)\cdot a^C_5(FS_{r-5})-s(6,2)\cdot a^C_5(FS_{r-4})-s(6,3)\cdot a^C_5(FS_{r-3})-s(6,4)\cdot a^C_5(FS_{r-2})-s(6,5)\cdot a^C_5(FS_{r-1}) \\[1em]
+           &=\frac{15311}{10}\cdot 5^r-\frac{58169}{12}\cdot 4^r+5582\cdot 3^r-\frac{5493}{2}\cdot 2^r+\frac{2917}{6} \\[1em]
+a^C_6(FS_r)&={r \brace 1}T(6,1)+{r \brace 2}T(6,2)+{r \brace 3}T(6,3)+{r \brace 4}T(6,4)+{r \brace 5}T(6,5)+{r \brace 6}T(6,6) \\[1em]
+           &=-s(7,1)\cdot a^C_6(FS_{r-6})-s(7,2)\cdot a^C_6(FS_{r-5})-s(7,3)\cdot a^C_6(FS_{r-4})-s(7,4)\cdot a^C_6(FS_{r-3})-s(7,5)\cdot a^C_6(FS_{r-2})-s(7,6)\cdot a^C_6(FS_{r-1}) \\[1em]
+           &=\frac{8530559}{360}\cdot 6^r-\frac{444264}{5}\cdot 5^r+\frac{3069971}{24}\cdot 4^r-\frac{782245}{9}\cdot 3^r+\frac{216245}{8}\cdot 2^r-\frac{43211}{15} \\[1em]
+a^C_7(FS_r)&={r \brace 1}T(7,1)+{r \brace 2}T(7,2)+{r \brace 3}T(7,3)+{r \brace 4}T(7,4)+{r \brace 5}T(7,5)+{r \brace 6}T(7,6)+{r \brace 7}T(7,7) \\[1em]
+           &=-s(8,1)\cdot a^C_7(FS_{r-7})-s(8,2)\cdot a^C_7(FS_{r-6})-s(8,3)\cdot a^C_7(FS_{r-5})-s(8,4)\cdot a^C_7(FS_{r-4})-s(8,5)\cdot a^C_7(FS_{r-3})-s(8,6)\cdot a^C_7(FS_{r-2})-s(8,7)\cdot a^C_7(FS_{r-1}) \\[1em]
+           &=\frac{161313668}{105}\cdot 7^r-\frac{235545521}{36}\cdot 6^r+\frac{261192269}{24}\cdot 5^r-\frac{210522757}{24}\cdot 4^r+\frac{122535049}{36}\cdot 3^r-\frac{7912154}{15}\cdot 2^r+\frac{458861}{24}
+\end{align*}
+</div>
+
+<br><br>
+<span id="heading">Number \(T(n,k)\) of order n Cayley tables ascendingly generated by k elements</span>
+<br><br>
+<div style="font-size:75%">The following values were computed using <a href="asc-gen-tables.g">this</a> GAP code which relied on the \({\sf \href{http://tinyurl.com/jdmitchell/smallsemi/}{Smallsemi}}\) data library.</div>
+<br>
+<table style="text-align: left; font-size: 85%">
+<tr><th style="width: 4%">k \ n</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr>
+<tr><th style="width: 4%">1</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><th style="width: 4%">2</th><td></td><td>8</td><td>37</td><td>145</td><td>452</td><td>1374</td><td>3933</td></tr>
+<tr><th style="width: 4%">3</th><td></td><td></td><td>113</td><td>1257</td><td>9020</td><td>60826</td><td>356023</td></tr>
+<tr><th style="width: 4%">4</th><td></td><td></td><td></td><td>3492</td><td>67394</td><td>938194</td><td>30492722</td></tr>
+<tr><th style="width: 4%">5</th><td></td><td></td><td></td><td></td><td>183732</td><td>6398792</td><td>466578957</td></tr>
+<tr><th style="width: 4%">6</th><td></td><td></td><td></td><td></td><td></td><td>17061118</td><td>3032145644</td></tr>
+<tr><th style="width: 4%">7</th><td></td><td></td><td></td><td></td><td></td><td></td><td>77430560647</td></tr>
+</table>
+
+<br>
+
+<div class="math" style="font-size:65%; line-height: 130%">
+\begin{align*}
+T(n,1)&=n \\[1em]
+T(n,n)&=\href{http://oeis.org/A023814}{A023814}(n) \\[1em]
+\end{align*}
+</div>
+
+<br><br><br>
+
+</div>
+</body>
+</html>
